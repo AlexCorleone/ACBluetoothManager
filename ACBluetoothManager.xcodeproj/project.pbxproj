@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1701715771ECE8AB13F18A15 /* Pods_ACBluetoothManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15212961AA737113076A01A6 /* Pods_ACBluetoothManager.framework */; };
+		1947B3DD237A94480082449E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1947B3DC237A94480082449E /* AppDelegate.swift */; };
+		1947B3DF237A94480082449E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1947B3DE237A94480082449E /* ViewController.swift */; };
+		1947B3E2237A94480082449E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1947B3E0237A94480082449E /* Main.storyboard */; };
+		1947B3E5237A94480082449E /* ACBluetoothManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1947B3E3237A94480082449E /* ACBluetoothManager.xcdatamodeld */; };
+		1947B3E7237A94520082449E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1947B3E6237A94520082449E /* Assets.xcassets */; };
+		1947B3EA237A94520082449E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1947B3E8237A94520082449E /* LaunchScreen.storyboard */; };
+		1947B3F5237A94520082449E /* ACBluetoothManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1947B3F4237A94520082449E /* ACBluetoothManagerTests.swift */; };
+		1947B400237A94520082449E /* ACBluetoothManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1947B3FF237A94520082449E /* ACBluetoothManagerUITests.swift */; };
+		49D22C9D069E950D0A924F43 /* Pods_ACBluetoothManagerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF0217D4D9697E103CFA9CB5 /* Pods_ACBluetoothManagerTests.framework */; };
+		9000369531E23F058FCF8679 /* Pods_ACBluetoothManager_ACBluetoothManagerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33E12D7ACE0A81E8E24AF8DF /* Pods_ACBluetoothManager_ACBluetoothManagerUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1947B3F1237A94520082449E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1947B3D1237A94480082449E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1947B3D8237A94480082449E;
+			remoteInfo = ACBluetoothManager;
+		};
+		1947B3FC237A94520082449E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1947B3D1237A94480082449E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1947B3D8237A94480082449E;
+			remoteInfo = ACBluetoothManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15212961AA737113076A01A6 /* Pods_ACBluetoothManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACBluetoothManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1947B3D9237A94480082449E /* ACBluetoothManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACBluetoothManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1947B3DC237A94480082449E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1947B3DE237A94480082449E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1947B3E1237A94480082449E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1947B3E4237A94480082449E /* ACBluetoothManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ACBluetoothManager.xcdatamodel; sourceTree = "<group>"; };
+		1947B3E6237A94520082449E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1947B3E9237A94520082449E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1947B3EB237A94520082449E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1947B3F0237A94520082449E /* ACBluetoothManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACBluetoothManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1947B3F4237A94520082449E /* ACBluetoothManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACBluetoothManagerTests.swift; sourceTree = "<group>"; };
+		1947B3F6237A94520082449E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1947B3FB237A94520082449E /* ACBluetoothManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACBluetoothManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1947B3FF237A94520082449E /* ACBluetoothManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACBluetoothManagerUITests.swift; sourceTree = "<group>"; };
+		1947B401237A94520082449E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AB8719DC6E64D76CE86151D /* Pods-ACBluetoothManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACBluetoothManager.debug.xcconfig"; path = "Target Support Files/Pods-ACBluetoothManager/Pods-ACBluetoothManager.debug.xcconfig"; sourceTree = "<group>"; };
+		33E12D7ACE0A81E8E24AF8DF /* Pods_ACBluetoothManager_ACBluetoothManagerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACBluetoothManager_ACBluetoothManagerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		504C6C4DDC169498BCD26D43 /* Pods-ACBluetoothManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACBluetoothManagerTests.release.xcconfig"; path = "Target Support Files/Pods-ACBluetoothManagerTests/Pods-ACBluetoothManagerTests.release.xcconfig"; sourceTree = "<group>"; };
+		506C8581AA462B0FCEC8E082 /* Pods-ACBluetoothManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACBluetoothManagerTests.debug.xcconfig"; path = "Target Support Files/Pods-ACBluetoothManagerTests/Pods-ACBluetoothManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		583B4F9B3DDDFCDDB903A6A1 /* Pods-ACBluetoothManager-ACBluetoothManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACBluetoothManager-ACBluetoothManagerUITests.debug.xcconfig"; path = "Target Support Files/Pods-ACBluetoothManager-ACBluetoothManagerUITests/Pods-ACBluetoothManager-ACBluetoothManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF0217D4D9697E103CFA9CB5 /* Pods_ACBluetoothManagerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACBluetoothManagerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24480C711E42534369BA57C /* Pods-ACBluetoothManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACBluetoothManager.release.xcconfig"; path = "Target Support Files/Pods-ACBluetoothManager/Pods-ACBluetoothManager.release.xcconfig"; sourceTree = "<group>"; };
+		F4B4DD38B7E3AAD421C8A4AA /* Pods-ACBluetoothManager-ACBluetoothManagerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACBluetoothManager-ACBluetoothManagerUITests.release.xcconfig"; path = "Target Support Files/Pods-ACBluetoothManager-ACBluetoothManagerUITests/Pods-ACBluetoothManager-ACBluetoothManagerUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1947B3D6237A94480082449E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1701715771ECE8AB13F18A15 /* Pods_ACBluetoothManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1947B3ED237A94520082449E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D22C9D069E950D0A924F43 /* Pods_ACBluetoothManagerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1947B3F8237A94520082449E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9000369531E23F058FCF8679 /* Pods_ACBluetoothManager_ACBluetoothManagerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1947B3D0237A94480082449E = {
+			isa = PBXGroup;
+			children = (
+				1947B3DB237A94480082449E /* ACBluetoothManager */,
+				1947B3F3237A94520082449E /* ACBluetoothManagerTests */,
+				1947B3FE237A94520082449E /* ACBluetoothManagerUITests */,
+				1947B3DA237A94480082449E /* Products */,
+				35DA722C9C55E4FA96A48131 /* Pods */,
+				2F96DAA72B15B1DD687B5D79 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1947B3DA237A94480082449E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1947B3D9237A94480082449E /* ACBluetoothManager.app */,
+				1947B3F0237A94520082449E /* ACBluetoothManagerTests.xctest */,
+				1947B3FB237A94520082449E /* ACBluetoothManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1947B3DB237A94480082449E /* ACBluetoothManager */ = {
+			isa = PBXGroup;
+			children = (
+				1947B3DC237A94480082449E /* AppDelegate.swift */,
+				1947B3DE237A94480082449E /* ViewController.swift */,
+				1947B3E0237A94480082449E /* Main.storyboard */,
+				1947B3E6237A94520082449E /* Assets.xcassets */,
+				1947B3E8237A94520082449E /* LaunchScreen.storyboard */,
+				1947B3EB237A94520082449E /* Info.plist */,
+				1947B3E3237A94480082449E /* ACBluetoothManager.xcdatamodeld */,
+			);
+			path = ACBluetoothManager;
+			sourceTree = "<group>";
+		};
+		1947B3F3237A94520082449E /* ACBluetoothManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1947B3F4237A94520082449E /* ACBluetoothManagerTests.swift */,
+				1947B3F6237A94520082449E /* Info.plist */,
+			);
+			path = ACBluetoothManagerTests;
+			sourceTree = "<group>";
+		};
+		1947B3FE237A94520082449E /* ACBluetoothManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1947B3FF237A94520082449E /* ACBluetoothManagerUITests.swift */,
+				1947B401237A94520082449E /* Info.plist */,
+			);
+			path = ACBluetoothManagerUITests;
+			sourceTree = "<group>";
+		};
+		2F96DAA72B15B1DD687B5D79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15212961AA737113076A01A6 /* Pods_ACBluetoothManager.framework */,
+				33E12D7ACE0A81E8E24AF8DF /* Pods_ACBluetoothManager_ACBluetoothManagerUITests.framework */,
+				CF0217D4D9697E103CFA9CB5 /* Pods_ACBluetoothManagerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35DA722C9C55E4FA96A48131 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AB8719DC6E64D76CE86151D /* Pods-ACBluetoothManager.debug.xcconfig */,
+				F24480C711E42534369BA57C /* Pods-ACBluetoothManager.release.xcconfig */,
+				583B4F9B3DDDFCDDB903A6A1 /* Pods-ACBluetoothManager-ACBluetoothManagerUITests.debug.xcconfig */,
+				F4B4DD38B7E3AAD421C8A4AA /* Pods-ACBluetoothManager-ACBluetoothManagerUITests.release.xcconfig */,
+				506C8581AA462B0FCEC8E082 /* Pods-ACBluetoothManagerTests.debug.xcconfig */,
+				504C6C4DDC169498BCD26D43 /* Pods-ACBluetoothManagerTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1947B3D8237A94480082449E /* ACBluetoothManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1947B404237A94520082449E /* Build configuration list for PBXNativeTarget "ACBluetoothManager" */;
+			buildPhases = (
+				600416F7C6150F6D0F258EF7 /* [CP] Check Pods Manifest.lock */,
+				1947B3D5237A94480082449E /* Sources */,
+				1947B3D6237A94480082449E /* Frameworks */,
+				1947B3D7237A94480082449E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ACBluetoothManager;
+			productName = ACBluetoothManager;
+			productReference = 1947B3D9237A94480082449E /* ACBluetoothManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1947B3EF237A94520082449E /* ACBluetoothManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1947B407237A94520082449E /* Build configuration list for PBXNativeTarget "ACBluetoothManagerTests" */;
+			buildPhases = (
+				3E2965F9F52F108B0307D747 /* [CP] Check Pods Manifest.lock */,
+				1947B3EC237A94520082449E /* Sources */,
+				1947B3ED237A94520082449E /* Frameworks */,
+				1947B3EE237A94520082449E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1947B3F2237A94520082449E /* PBXTargetDependency */,
+			);
+			name = ACBluetoothManagerTests;
+			productName = ACBluetoothManagerTests;
+			productReference = 1947B3F0237A94520082449E /* ACBluetoothManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1947B3FA237A94520082449E /* ACBluetoothManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1947B40A237A94520082449E /* Build configuration list for PBXNativeTarget "ACBluetoothManagerUITests" */;
+			buildPhases = (
+				855237B7BA4ED91B2A024C96 /* [CP] Check Pods Manifest.lock */,
+				1947B3F7237A94520082449E /* Sources */,
+				1947B3F8237A94520082449E /* Frameworks */,
+				1947B3F9237A94520082449E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1947B3FD237A94520082449E /* PBXTargetDependency */,
+			);
+			name = ACBluetoothManagerUITests;
+			productName = ACBluetoothManagerUITests;
+			productReference = 1947B3FB237A94520082449E /* ACBluetoothManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1947B3D1237A94480082449E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = AlexCorleone;
+				TargetAttributes = {
+					1947B3D8237A94480082449E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					1947B3EF237A94520082449E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1947B3D8237A94480082449E;
+					};
+					1947B3FA237A94520082449E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1947B3D8237A94480082449E;
+					};
+				};
+			};
+			buildConfigurationList = 1947B3D4237A94480082449E /* Build configuration list for PBXProject "ACBluetoothManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1947B3D0237A94480082449E;
+			productRefGroup = 1947B3DA237A94480082449E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1947B3D8237A94480082449E /* ACBluetoothManager */,
+				1947B3EF237A94520082449E /* ACBluetoothManagerTests */,
+				1947B3FA237A94520082449E /* ACBluetoothManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1947B3D7237A94480082449E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1947B3EA237A94520082449E /* LaunchScreen.storyboard in Resources */,
+				1947B3E7237A94520082449E /* Assets.xcassets in Resources */,
+				1947B3E2237A94480082449E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1947B3EE237A94520082449E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1947B3F9237A94520082449E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E2965F9F52F108B0307D747 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ACBluetoothManagerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		600416F7C6150F6D0F258EF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ACBluetoothManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		855237B7BA4ED91B2A024C96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ACBluetoothManager-ACBluetoothManagerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1947B3D5237A94480082449E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1947B3E5237A94480082449E /* ACBluetoothManager.xcdatamodeld in Sources */,
+				1947B3DF237A94480082449E /* ViewController.swift in Sources */,
+				1947B3DD237A94480082449E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1947B3EC237A94520082449E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1947B3F5237A94520082449E /* ACBluetoothManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1947B3F7237A94520082449E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1947B400237A94520082449E /* ACBluetoothManagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1947B3F2237A94520082449E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1947B3D8237A94480082449E /* ACBluetoothManager */;
+			targetProxy = 1947B3F1237A94520082449E /* PBXContainerItemProxy */;
+		};
+		1947B3FD237A94520082449E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1947B3D8237A94480082449E /* ACBluetoothManager */;
+			targetProxy = 1947B3FC237A94520082449E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1947B3E0237A94480082449E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1947B3E1237A94480082449E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1947B3E8237A94520082449E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1947B3E9237A94520082449E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1947B402237A94520082449E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1947B403237A94520082449E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1947B405237A94520082449E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AB8719DC6E64D76CE86151D /* Pods-ACBluetoothManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63S88Z2GR6;
+				INFOPLIST_FILE = ACBluetoothManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexCorloeone.com.ACBluetoothManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1947B406237A94520082449E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F24480C711E42534369BA57C /* Pods-ACBluetoothManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63S88Z2GR6;
+				INFOPLIST_FILE = ACBluetoothManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexCorloeone.com.ACBluetoothManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1947B408237A94520082449E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 506C8581AA462B0FCEC8E082 /* Pods-ACBluetoothManagerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63S88Z2GR6;
+				INFOPLIST_FILE = ACBluetoothManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexCorloeone.com.ACBluetoothManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACBluetoothManager.app/ACBluetoothManager";
+			};
+			name = Debug;
+		};
+		1947B409237A94520082449E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 504C6C4DDC169498BCD26D43 /* Pods-ACBluetoothManagerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63S88Z2GR6;
+				INFOPLIST_FILE = ACBluetoothManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexCorloeone.com.ACBluetoothManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACBluetoothManager.app/ACBluetoothManager";
+			};
+			name = Release;
+		};
+		1947B40B237A94520082449E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 583B4F9B3DDDFCDDB903A6A1 /* Pods-ACBluetoothManager-ACBluetoothManagerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63S88Z2GR6;
+				INFOPLIST_FILE = ACBluetoothManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexCorloeone.com.ACBluetoothManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ACBluetoothManager;
+			};
+			name = Debug;
+		};
+		1947B40C237A94520082449E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4B4DD38B7E3AAD421C8A4AA /* Pods-ACBluetoothManager-ACBluetoothManagerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63S88Z2GR6;
+				INFOPLIST_FILE = ACBluetoothManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexCorloeone.com.ACBluetoothManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ACBluetoothManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1947B3D4237A94480082449E /* Build configuration list for PBXProject "ACBluetoothManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1947B402237A94520082449E /* Debug */,
+				1947B403237A94520082449E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1947B404237A94520082449E /* Build configuration list for PBXNativeTarget "ACBluetoothManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1947B405237A94520082449E /* Debug */,
+				1947B406237A94520082449E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1947B407237A94520082449E /* Build configuration list for PBXNativeTarget "ACBluetoothManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1947B408237A94520082449E /* Debug */,
+				1947B409237A94520082449E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1947B40A237A94520082449E /* Build configuration list for PBXNativeTarget "ACBluetoothManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1947B40B237A94520082449E /* Debug */,
+				1947B40C237A94520082449E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1947B3E3237A94480082449E /* ACBluetoothManager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1947B3E4237A94480082449E /* ACBluetoothManager.xcdatamodel */,
+			);
+			currentVersion = 1947B3E4237A94480082449E /* ACBluetoothManager.xcdatamodel */;
+			path = ACBluetoothManager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1947B3D1237A94480082449E /* Project object */;
+}

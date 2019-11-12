@@ -1,0 +1,6 @@
+framework module Pods_ACBluetoothManager_ACBluetoothManagerUITests {
+  umbrella header "Pods-ACBluetoothManager-ACBluetoothManagerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

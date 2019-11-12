@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_ACBluetoothManager_ACBluetoothManagerUITests : NSObject
+@end
+@implementation PodsDummy_Pods_ACBluetoothManager_ACBluetoothManagerUITests
+@end
