@@ -165,7 +165,6 @@
 				506C8581AA462B0FCEC8E082 /* Pods-ACBluetoothManagerTests.debug.xcconfig */,
 				504C6C4DDC169498BCD26D43 /* Pods-ACBluetoothManagerTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -553,6 +552,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 63S88Z2GR6;
 				INFOPLIST_FILE = ACBluetoothManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -572,6 +572,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 63S88Z2GR6;
 				INFOPLIST_FILE = ACBluetoothManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
